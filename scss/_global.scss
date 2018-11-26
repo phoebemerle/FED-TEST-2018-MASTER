@@ -1,0 +1,50 @@
+h1 {
+  font-size: 26px;
+}
+
+p#pagedescription {
+  width: 290px; 
+  word-wrap: break-word;
+}
+
+.filmcard {
+  background-color: grey;
+  margin: 20px;
+  float:left;
+  width: 27%;
+  height: 200px;
+}
+
+p.filmbio {
+  height: auto;
+  word-wrap: break-word;
+}
+
+.filmimage {
+  max-width: 120px;
+  float: left;
+  height: auto;
+  margin: 15px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px)  {
+
+  .filmimage{
+    width: 50%;
+  }
+
+}
+
+
+@media only screen and (min-width: 961px) and (max-width: 1400px)  {
+  .filmimage{
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1401px)  {
+
+  .filmimage{
+    width: 20%;
+  }
+}
